@@ -3,172 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pontuação Atual do Campeonato Brasileiro 2025</title>
+    <title>Meu Portfólio</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Reset de estilo básico */
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos do corpo da página */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
             background-color: #f4f4f4;
+            color: #333;
         }
-        table {
-            width: 80%;
-            margin: 50px auto;
-            border-collapse: collapse;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        th, td {
-            padding: 15px;
+
+        /* Estilos do header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
             text-align: center;
-            border: 1px solid #ddd;
         }
-        th {
-            background-color: #007BFF;
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        /* Navegação */
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Seções do conteúdo */
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Estilo das listas de habilidades e projetos */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .skills li,
+        .projects li {
+            font-size: 1.2em;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
             color: white;
         }
-        td {
-            font-size: 16px;
-        }
-        caption {
-            font-size: 24px;
-            margin: 10px;
-        }
-        .header {
-            background-color: #f2f2f2;
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            nav a {
+                padding: 10px;
+                font-size: 1em;
+            }
+            section {
+                padding: 20px;
+            }
         }
     </style>
 </head>
 <body>
 
-    <table>
-        <caption>Pontuação Atual do Campeonato Brasileiro 2025</caption>
-        <thead>
-            <tr class="header">
-                <th>Posição</th>
-                <th>Time</th>
-                <th>Pontos</th>
-                <th>Jogos</th>
-                <th>Vitórias</th>
-                <th>Empates</th>
-                <th>Derrotas</th>
-                <th>Gols</th>
-                <th>Saldo de Gols</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Palmeiras</td>
-                <td>58</td>
-                <td>29</td>
-                <td>18</td>
-                <td>4</td>
-                <td>7</td>
-                <td>56</td>
-                <td>+23</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Flamengo</td>
-                <td>56</td>
-                <td>29</td>
-                <td>17</td>
-                <td>5</td>
-                <td>7</td>
-                <td>54</td>
-                <td>+21</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Atlético-MG</td>
-                <td>54</td>
-                <td>29</td>
-                <td>16</td>
-                <td>6</td>
-                <td>7</td>
-                <td>50</td>
-                <td>+20</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>São Paulo</td>
-                <td>52</td>
-                <td>29</td>
-                <td>15</td>
-                <td>7</td>
-                <td>7</td>
-                <td>49</td>
-                <td>+18</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Grêmio</td>
-                <td>50</td>
-                <td>29</td>
-                <td>14</td>
-                <td>8</td>
-                <td>7</td>
-                <td>45</td>
-                <td>+15</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Internacional</td>
-                <td>48</td>
-                <td>29</td>
-                <td>13</td>
-                <td>9</td>
-                <td>7</td>
-                <td>46</td>
-                <td>+12</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Fluminense</td>
-                <td>47</td>
-                <td>29</td>
-                <td>14</td>
-                <td>5</td>
-                <td>10</td>
-                <td>43</td>
-                <td>+8</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>Corinthians</td>
-                <td>45</td>
-                <td>29</td>
-                <td>13</td>
-                <td>6</td>
-                <td>10</td>
-                <td>41</td>
-                <td>+5</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>Vasco</td>
-                <td>43</td>
-                <td>29</td>
-                <td>12</td>
-                <td>7</td>
-                <td>10</td>
-                <td>39</td>
-                <td>+4</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>Fluminense</td>
-                <td>42</td>
-                <td>29</td>
-                <td>11</td>
-                <td>9</td>
-                <td>9</td>
-                <td>40</td>
-                <td>+3</td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Header -->
+    <header>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Sobre Mim -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>
+            Olá! Meu nome é <strong>Kauã Victor</strong>, sou um programador apaixonado por tecnologia e desenvolvimento web. 
+            Atualmente, estou aprimorando minhas habilidades em <strong>HTML, CSS, JavaScript</strong> e <strong>React</strong>. 
+            Tenho uma grande vontade de aprender e criar soluções inovadoras para problemas cotidianos.
+        </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <h2>Minhas Habilidades</h2>
+        <ul class="skills">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Git & GitHub</li>
+            <li>Desenvolvimento Responsivo</li>
+        </ul>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <ul class="projects">
+            <li>
+                <strong>Projeto 1: </strong> 
+                <a href="https://seulink.com" target="_blank">Portfolio Pessoal</a> - Um site para exibir meus projetos e informações sobre mim.
+            </li>
+            <li>
+                <strong>Projeto 2: </strong> 
+                <a href="https://seulink.com" target="_blank">Aplicativo de Tarefas</a> - Um aplicativo para gerenciar tarefas do dia a dia.
+            </li>
+            <li>
+                <strong>Projeto 3: </strong> 
+                <a href="https://seulink.com" target="_blank">Blog Pessoal</a> - Um blog para compartilhar conhecimentos sobre desenvolvimento.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato comigo através do e-mail: <strong>kauacassemiro09@gmail.com</strong></p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 - Kauã Victor| Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
